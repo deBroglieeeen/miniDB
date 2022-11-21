@@ -9,7 +9,7 @@ impl DiskManager {
 	}
 
 	pub fn open(data_file_path: impl AsRef<Path>)
-	    -> io::Result<zself> {
+	    -> io::Result<Self> {
 
 	    }
 
